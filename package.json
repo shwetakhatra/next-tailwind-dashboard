@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@material-tailwind/html": "^2.2.2",
     "@nextui-org/react": "^2.3.6",
     "@types/react-router-dom": "^5.3.3",
     "chart.js": "^4.4.2",

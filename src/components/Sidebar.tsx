@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { ReactNode } from 'react';
-import { FiLogOut } from 'react-icons/fi'
+import { ReactNode } from 'react';
 import { Tooltip } from "@nextui-org/tooltip";
 import { sidebarItems } from '@/data/data';
+import Logout from '@/components/Logout';
 
 const Sidebar = ({ children }: { children: ReactNode }) => {
   return (
@@ -33,9 +33,7 @@ const Sidebar = ({ children }: { children: ReactNode }) => {
                 ))}
             </div>
             <div>
-                <div className='bg-gray-100 text-purple-800 hover:bg-gray-200 cursor-pointer my-4 p-3 rounded-lg inline-block'>
-                    <FiLogOut size={20} />
-                </div>
+                <Logout />
                 <Image 
                     src='https://gravatar.com/avatar/f3dfc6ef76c40a3071d13839dfb81778?s=400&d=robohash&r=x' 
                     alt='https://gravatar.com/avatar/22a271bcbe0ab1f8713d7307b2f0c6ac?s=400&d=robohash&r=x' 

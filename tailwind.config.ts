@@ -1,7 +1,8 @@
 import type { Config } from "tailwindcss";
 const { fontFamily } = require("tailwindcss/defaultTheme");
+const withMT = require("@material-tailwind/html/utils/withMT");
 
-const config: Config = {
+const config: Config = withMT({
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -25,5 +26,5 @@ const config: Config = {
     },
   },
   plugins: [],
-};
+});
 export default config;

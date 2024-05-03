@@ -121,3 +121,16 @@ export const sidebarItems = [
   { href: "/orders", icon: <RxPerson size={20} />, label: "Orders" },
   { href: "/settings", icon: <FiSettings size={20} />, label: "Settings" }
 ];
+
+export const tabs = [
+    { 
+      id: 'generalsettings', 
+      label: 'General Settings', 
+      content: 'Configure general settings for your application.'
+    },
+    { 
+      id: 'preferences', 
+      label: 'Preferences', 
+      content: 'Customize your preferences to tailor your experience.'
+    }
+  ];
