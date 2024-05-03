@@ -1,3 +1,7 @@
+import { RxDashboard, RxPerson } from 'react-icons/rx'
+import { HiOutlineBookOpen } from 'react-icons/hi'
+import { FiSettings, FiLogOut } from 'react-icons/fi'
+
 export const data = [
   {
     id: 1,
@@ -109,4 +113,11 @@ export const data = [
     method: 'MasterCard',
     date: '1 Day ago',
   },
+];
+
+export const sidebarItems = [
+  { href: "/", icon: <RxDashboard size={20} />, label: "Dashboard" },
+  { href: "/customers", icon: <HiOutlineBookOpen size={20} />, label: "Customers" },
+  { href: "/orders", icon: <RxPerson size={20} />, label: "Orders" },
+  { href: "/settings", icon: <FiSettings size={20} />, label: "Settings" }
 ];

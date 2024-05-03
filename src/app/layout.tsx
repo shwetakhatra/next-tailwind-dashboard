@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={openSans.className}>
         <Sidebar>
-          <Header />
+          <Header title="Dashboard"/>
           {children}
           <Footer />
         </Sidebar>
