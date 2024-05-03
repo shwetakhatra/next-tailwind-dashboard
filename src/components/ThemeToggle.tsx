@@ -1,0 +1,32 @@
+'use client'
+import {useEffect, useState } from 'react'
+import { FaMoon } from 'react-icons/fa'
+import { BsSunFill } from 'react-icons/bs'
+
+const ThemeToggle = () => {
+    const [darkMode, setDarkMode] = useState(false)
+    useEffect(() =>{
+        const theme = localStorage.getItem("theme")
+        if(theme === 'dark') setDarkMode(true)
+    }, [])
+    useEffect(() =>{
+        if(darkMode){
+            document.documentElement.classList.add('dark')
+            localStorage.setItem("theme", "dark")
+        }else{
+            document.documentElement.classList.remove('dark')
+            localStorage.setItem("theme", "light")
+        }
+    }, [darkMode])
+    return (
+        <div className='relative w-16 h-8 flex items-center ark:bg-gray-900 bg-purple-500 cursor-pointer rounded-full p-1' onClick={() => setDarkMode(!darkMode)}>
+            <FaMoon className='text-white' size={17} />
+            <div className='absolute bg-white dark:bg-medium w-5 h-5 rounded-full shadow-md transform transition-transform duration-300'
+            style={darkMode ? {left: '4px'} : {right: '7px'} }>
+            </div>
+            <BsSunFill className='text-white ml-4' size={17} />
+        </div>
+    )
+}
+
+export default ThemeToggle
