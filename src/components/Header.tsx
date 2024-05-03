@@ -2,7 +2,7 @@
 import ThemeToggle from '@/components/ThemeToggle';
 import { usePathname  } from 'next/navigation';
 
-const Header = ({ title }: { title: string }) => {
+const Header = () => {
   const pathname = usePathname().replace(/^\/+/, '');
   const formattedTitle = pathname === '' ? 'Dashboard' : pathname.replace(/\b\w/g, c => c.toUpperCase()); 
   return (

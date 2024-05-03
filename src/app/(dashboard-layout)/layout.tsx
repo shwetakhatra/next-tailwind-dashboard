@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Open_Sans } from 'next/font/google'
-import "./globals.css";
+import ".././globals.css";
 import Sidebar from "@/components/Sidebar";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={openSans.className}>
         <Sidebar>
-          <Header title="Dashboard"/>
+          <Header />
           {children}
           <Footer />
         </Sidebar>
