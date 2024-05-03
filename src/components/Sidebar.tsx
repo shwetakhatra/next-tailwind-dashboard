@@ -34,13 +34,17 @@ const Sidebar = ({ children }: { children: ReactNode }) => {
             </div>
             <div>
                 <Logout />
-                <Image 
-                    src='https://gravatar.com/avatar/f3dfc6ef76c40a3071d13839dfb81778?s=400&d=robohash&r=x' 
-                    alt='https://gravatar.com/avatar/22a271bcbe0ab1f8713d7307b2f0c6ac?s=400&d=robohash&r=x' 
-                    width={48} 
-                    height={48} 
-                    className='rounded-full bg-gray-100' 
-                />
+                <Link
+                    href='/profile'
+                >
+                    <Image 
+                        src='https://gravatar.com/avatar/f3dfc6ef76c40a3071d13839dfb81778?s=400&d=robohash&r=x' 
+                        alt='https://gravatar.com/avatar/22a271bcbe0ab1f8713d7307b2f0c6ac?s=400&d=robohash&r=x' 
+                        width={48} 
+                        height={48} 
+                        className='rounded-full bg-gray-100' 
+                    />
+                </Link>
             </div>
         </div>
         <main className='ml-20 w-full'>{children}</main>

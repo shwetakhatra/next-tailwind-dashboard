@@ -4,8 +4,8 @@ import { Tooltip } from "@nextui-org/tooltip"
 
 const Logout = () => {
   return (
-    <div className='bg-gray-100 text-purple-800 hover:bg-gray-200 cursor-pointer my-4 p-3 rounded-lg inline-block'>
-        <Link href="/logout">
+    <div className='bg-gray-100 dark:bg-dark dark:text-white text-purple-800 hover:bg-gray-200 cursor-pointer my-4 p-3 rounded-lg inline-block'>
+        <Link href="#">
             <Tooltip 
                 content="Logout" 
                 placement='bottom' 

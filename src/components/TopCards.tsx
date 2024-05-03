@@ -8,10 +8,10 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ amount, description, increase }) => {
   return (
-    <div className='bg-white flex justify-between w-full border p-4 rounded-lg'>
+    <div className='dark:bg-dark dark:text-white bg-white flex justify-between w-full border p-4 rounded-lg'>
       <div className='flex flex-col w-full pb-4'>
         <p className='text-2xl font-bold'>{amount}</p>
-        <p className='text-gray-600'>{description}</p>
+        <p className='text-gray-600 dark:text-white'>{description}</p>
       </div>
       <p className='bg-green-200 flex justify-center items-center p-2 rounded-lg'>
         <span className='text-green-700 text-lg'>{increase}</span>
