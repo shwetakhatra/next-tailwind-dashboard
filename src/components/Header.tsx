@@ -10,7 +10,7 @@ const Header = () => {
       <h2 className="mt-[3px] font-bold">{formattedTitle}</h2>
       <div className="flex items-center ">
         <ThemeToggle />
-        <h2 className='ml-4 font-bold'>Welcome, Shweta</h2>
+        <h2 className='ml-4 font-bold'>Welcome, John !!</h2>
       </div>
     </div>
   )

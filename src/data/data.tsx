@@ -1,6 +1,6 @@
 import { RxDashboard, RxPerson } from 'react-icons/rx'
 import { HiOutlineBookOpen } from 'react-icons/hi'
-import { FiSettings, FiLogOut } from 'react-icons/fi'
+import { FiSettings } from 'react-icons/fi'
 
 export const data = [
   {
@@ -116,21 +116,66 @@ export const data = [
 ];
 
 export const sidebarItems = [
-  { href: "/", icon: <RxDashboard size={20} />, label: "Dashboard" },
-  { href: "/customers", icon: <HiOutlineBookOpen size={20} />, label: "Customers" },
-  { href: "/orders", icon: <RxPerson size={20} />, label: "Orders" },
-  { href: "/settings", icon: <FiSettings size={20} />, label: "Settings" }
+  { 
+    href: "/", 
+    icon: <RxDashboard 
+    size={20} />, 
+    label: "Dashboard" 
+  },
+  { 
+    href: "/customers", 
+    icon: <HiOutlineBookOpen 
+    size={20} />, 
+    label: "Customers" 
+  },
+  { 
+    href: "/orders", 
+    icon: <RxPerson size={20} />, 
+    label: "Orders" 
+  },
+  { 
+    href: "/settings", 
+    icon: <FiSettings size={20} />, 
+    label: "Settings" 
+  }
 ];
 
 export const tabs = [
-    { 
-      id: 'generalsettings', 
-      label: 'General Settings', 
-      content: 'Configure general settings for your application.'
-    },
-    { 
-      id: 'preferences', 
-      label: 'Preferences', 
-      content: 'Customize your preferences to tailor your experience.'
-    }
-  ];
+  { 
+    id: 'generalsettings', 
+    label: 'General Settings', 
+    content: 'Configure general settings for your application.'
+  },
+  { 
+    id: 'preferences', 
+    label: 'Preferences', 
+    content: 'Customize your preferences to tailor your experience.'
+  }
+];
+
+export const joyRideSteps = [
+  {
+    target: '.dashboard-sidebar',
+    content: 'Step1',
+  },
+  {
+    target: '.dashboard-theme',
+    content: 'step2',
+  },
+  {
+    target: '.dashboard-data',
+    content: 'step3',
+  },
+  {
+    target: '.dashboard-chart',
+    content: 'step4',
+  },
+  {
+    target: '.dashboard-table',
+    content: 'step5',
+  },
+  {
+    target: '.dashboard-profile',
+    content: 'step6',
+  },
+];
