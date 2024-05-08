@@ -3,34 +3,20 @@
 
   &#xa0;
 
-  <!-- <a href="https://wavemakersnew.netlify.app">Demo</a> -->
+  <a href="https://master--next-tailwind-dashboard.netlify.app/">Demo</a>
 </div>
 
 <h1 align="center">Next-Tailwind-Dashboard</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/next-tailwind-dashboard?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/shwetakhatra/next-tailwind-dashboard?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/next-tailwind-dashboard?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/shwetakhatra/next-tailwind-dashboard?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/next-tailwind-dashboard?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/shwetakhatra/next-tailwind-dashboard?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/next-tailwind-dashboard?color=56BEB8">
-
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/next-tailwind-dashboard?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/next-tailwind-dashboard?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/next-tailwind-dashboard?color=56BEB8" /> -->
+  <img alt="License" src="https://img.shields.io/github/license/shwetakhatra/next-tailwind-dashboard?color=56BEB8">
 </p>
-
-<!-- Status -->
-
-<!-- <h4 align="center"> 
-	🚧  Wavemakers New 🚀 Under construction...  🚧
-</h4> 
-
-<hr> -->
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
@@ -39,20 +25,20 @@
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="https://github.com/shwetakhatra" target="_blank">Author</a>
 </p>
 
 <br>
 
 ## :dart: About ##
 
-Describe your project
+Next-Tailwind-Dashboard is a sleek and intuitive dashboard interface crafted with simplicity and functionality in mind. Featuring minimalist design elements, it offers seamless navigation and easy access to key information. With dedicated login and signup pages, users can securely access the dashboard, ensuring a personalized experience tailored to their needs. Powered by Tailwind CSS, it boasts responsive layouts and modern aesthetics, making it ideal for a wide range of web applications. Whether you're managing tasks, tracking analytics, or monitoring performance metrics, Next-Tailwind-Dashboard provides a user-friendly platform for efficient data management and decision-making.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Responsive Design: Next-Tailwind-Dashboard offers a fully responsive layout, ensuring optimal viewing and interaction across various devices and screen sizes. Whether accessed on desktops, tablets, or smartphones, the dashboard adapts seamlessly, providing users with a consistent and intuitive experience.\
+:heavy_check_mark: Modular Components: The dashboard offers modular components that can be easily customized and rearranged to suit individual preferences and project requirements. From widgets and cards to panels and menus, each component is designed with flexibility in mind, allowing users to create custom layouts and configurations tailored to their specific needs.\
+:heavy_check_mark: Intuitive UI Elements: Next-Tailwind-Dashboard focuses on user-friendly interface elements, with minimalist design principles guiding its layout. Clean typography, subtle animations, and intuitive navigation contribute to a seamless user experience. Users can easily navigate through the dashboard, access information quickly, and perform actions efficiently, without distractions or unnecessary clutter.
 
 ## :rocket: Technologies ##
 
@@ -70,7 +56,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{shwetakhatra}}/next-tailwind-dashboard
+$ git clone https://github.com/shwetakhatra/next-tailwind-dashboard
 
 # Access
 $ cd next-tailwind-dashboard
@@ -83,13 +69,7 @@ $ npm run dev
 
 # The server will initialize in the <http://localhost:3000>
 ```
-
-## :memo: License ##
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
-
-Made with :heart: by <a href="https://github.com/{{shwetakhatra}}" target="_blank">{{Shweta Khatra}}</a>
+Made with :heart: by <a href="https://github.com/shwetakhatra" target="_blank">Shweta Khatra</a>
 
 &#xa0;
 
